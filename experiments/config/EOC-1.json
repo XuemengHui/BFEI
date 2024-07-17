@@ -1,0 +1,21 @@
+{
+    "dataset": "EOC-1",
+    "num_classes": 3,
+    "channels": 1,
+    "batch_size": 64,
+    "epochs": 80,
+    "momentum": 0.9,
+    "lr": 0.01,
+    "lr_step": [
+        150
+    ],
+    "lr_decay": 0.1,
+    "weight_decay": 0.004,
+    "dropout_rate": 0.5,
+    "sum_weight": 0.5,
+    "lam1": 1.0,
+    "lam2": 2.0,
+    "lam3": 0.5,
+    "data_dir": "./mstar_data",
+    "asc_dir": "./mstar_data"
+}
